@@ -26,8 +26,8 @@
 
 summary {
     padding:10px;
-    background: black;
-    border: 1px solid black;
+    background:#ff7b54;
+    border: 1px solid#ff7b54;
     display:inline-block;
     border-radius: 10px;
     list-style: none;
@@ -59,13 +59,6 @@ summary {
    
   }
 
-  .vdayir {
-      margin-right: 10px;
-      padding: 60px;
-      margin-left: 70px;
-  }
-
-
   .mapyazi {
       font-size: 1em;
       font-weight: bold;
@@ -73,3 +66,60 @@ summary {
       font-family: 'Montserrat', sans-serif;
   }
 
+  i {
+      padding-right: 10px;
+  }
+
+  .navirenk {
+      background-color: #ff7b54;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+  }
+
+  .nav-link {
+      color: #fff;
+      font-weight: bold;
+      font-family: 'Monsterrat' , sans-serif;
+  }
+  
+  .nav-link:hover {
+      color: black;
+  }
+  
+  .navbar-brand {
+      color: #fff;
+      
+  }
+  
+  .navbar-brand:hover {
+      color: black;
+  }
+
+  @media (max-width: 768px) {
+    .navirenk {
+        background-color: #ff7b54;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+
+  }
+    .nav-item {
+        margin-top: 10px;
+        transition: all .5s ease;
+    }
+    .vdboy {
+        width: 300px;
+      
+    }
+    .nav-item:hover:not(.valoguide) {
+        background-color:white;
+        padding-left: 40px;
+        
+    }
+    .nav-link:hover {
+        color: #ff7b54;
+    }
+    .logo_border  {
+        color: #fff;
+        margin-right: 5px;
+    }
+ }
