@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boyut {
+    width: 210px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+.sageboyut {
+    width: 130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.moryap {
+    background-color: white;
+}
+
+
+summary {
+    padding:10px;
+    background: black;
+    border: 1px solid black;
+    display:inline-block;
+    border-radius: 10px;
+    list-style: none;
+    color: white;
+    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+   summary::-webkit-details-marker {
+       display: none;
+  
+  }
+
+  .navlar {
+      list-style: none;
+  }
+
+  .bghero {
+      background-image: url(./besttts.png);
+      background-size: 300px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      
+  }
+
+  .vdboy {
+      width: 700px;
+   
+  }
+
+  .vdayir {
+      margin-right: 10px;
+      padding: 60px;
+      margin-left: 70px;
+  }
+
+
+  .mapyazi {
+      font-size: 1em;
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-family: 'Montserrat', sans-serif;
+  }
+
