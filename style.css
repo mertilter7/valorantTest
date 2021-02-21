@@ -128,3 +128,21 @@ summary {
         margin-right: 5px;
     }
  }
+    footer {
+        background-color: #ff7b54;
+        height: auto;
+        width: 100vw;
+        font-family: 'Monsterrat' sans-serif;
+        padding-top: 20px;
+        color: #fff;
+        
+    }
+    
+    .footer-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
