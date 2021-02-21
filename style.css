@@ -40,6 +40,10 @@ summary {
        display: none;
   
   }
+  summary:hover {
+      background-color: #fff;
+      color: #ff7b54;
+  }
 
   .navlar {
       list-style: none;
